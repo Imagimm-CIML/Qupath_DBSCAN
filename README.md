@@ -1,7 +1,7 @@
-# DBSCAN using Qupath by creatin a folder and put the commons-math3-3.6.1.jar file inside
+# DBSCAN using Qupath
 ![DBSCAN_original](https://user-images.githubusercontent.com/41480459/221807462-691ec9cb-4749-4757-831f-b5a27e4f5594.jpg)
 
-### 1- Create a Qupath project  
+### 1- Create a Qupath project and put the commons-math3-3.6.1.jar file inside the main folder
 ### 2- Load the calibrated image DBSCAN.tif (drag and drop) and double click on it in the images list :
 ![DBSCAN_calibrated](https://user-images.githubusercontent.com/41480459/221814110-c531f378-4c65-4dc5-90e4-9edfded4a95c.jpg)
 
