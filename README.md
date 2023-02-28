@@ -16,7 +16,10 @@ You should obtain 9 detections :
 ### 5- Create two classes (beads and cluster) :  to do that right clic and add class
 ![add_class](https://user-images.githubusercontent.com/41480459/221811011-e6f70a95-bc7a-44b9-88b5-ce847cd01861.jpg)
 
-### 6- Classify the detected spots as beads (as the groovy script is working on classify elements). To do that go in the menu Classify/Object classification/create single measurtements classifier and put the theshold to the minimum to be sure toi select all the spots:
-![classifier](https://user-images.githubusercontent.com/41480459/221810259-54957572-417e-4a11-82a5-dbfa86b63006.jpg)
+### 6- Classify the detected spots as beads (because the groovy script is working only on class detections). To do that go in the menu Classify/Object classification/create single measurtements classifier and put the theshold to the minimum to be sure toi select all the spots:
+![classifier](https://user-images.githubusercontent.com/41480459/221810259-54957572-417e-4a11-82a5-dbfa86b63006.jpg)  
+
 ### 7- Launch the script DBSCAN.groovy on the annotation with the parameter MinPts=3 and distance=100um
 ![script](https://user-images.githubusercontent.com/41480459/221812388-2bc9e235-c0a6-4ed4-ad8b-d34fdcc522be.jpg)
+
+### 8- You should obtain one cluster of 8 beads (one is outside the cluster). To classify the cluster beads, go in the menu Classify/Object classification/create single measurtements and look for the measurements cluster
