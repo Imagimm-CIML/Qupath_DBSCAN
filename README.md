@@ -25,7 +25,7 @@ It could be launched in the script by this command : runPlugin('qupath.imagej.de
 You should obtain this:  
 
 ![clssify_beads](https://user-images.githubusercontent.com/41480459/221817329-15713c7a-efd4-477d-9199-1e8db123f983.jpg)
- 
+ You can put a classifier name to save the classifier in the project.
 ### 7- Launch the script DBSCAN.groovy (drag and drop) on the annotation with the parameter MinPts=3 and distance=100um
 ![script](https://user-images.githubusercontent.com/41480459/221812388-2bc9e235-c0a6-4ed4-ad8b-d34fdcc522be.jpg)
 
