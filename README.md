@@ -11,8 +11,11 @@ This image contain 8 spots thar are closer than 100um exept one which is further
 ### 4- Detect all the spots in the annotation with Analyse/cell detections (do not create cells detections for that put cell expansion=0) 
 ![cell-detection](https://user-images.githubusercontent.com/41480459/221813921-ec4f5223-b6ae-4272-934d-da2c889a9d4c.jpg)  
 You should obtain 9 detections :
-![detections](https://user-images.githubusercontent.com/41480459/221815892-4c27944e-c890-401c-b282-36e2bb3f8ae4.jpg)
-
+![detections](https://user-images.githubusercontent.com/41480459/221815892-4c27944e-c890-401c-b282-36e2bb3f8ae4.jpg)  
+It could be launched in the script by this command : runPlugin('qupath.imagej.detect.cells.WatershedCellDetection', 
+'{"detectionImage":"Channel 1","requestedPixelSizeMicrons":1.0,"backgroundRadiusMicrons":30.0,"backgroundByReconstruction":true,
+"medianRadiusMicrons":0.0,"sigmaMicrons":1.5,"minAreaMicrons":10.0,"maxAreaMicrons":900.0,"threshold":25.0,"watershedPostProcess":true,
+"cellExpansionMicrons":0.0,"includeNuclei":true,"smoothBoundaries":true,"makeMeasurements":true}') 
 ### 5- Create two classes (beads and cluster) :  to do that right clic and add class
 ![add_class](https://user-images.githubusercontent.com/41480459/221811011-e6f70a95-bc7a-44b9-88b5-ce847cd01861.jpg)
 
@@ -22,10 +25,7 @@ You should obtain 9 detections :
 You should obtain this:  
 
 ![clssify_beads](https://user-images.githubusercontent.com/41480459/221817329-15713c7a-efd4-477d-9199-1e8db123f983.jpg)
-It could be launched in the script by this command : runPlugin('qupath.imagej.detect.cells.WatershedCellDetection', 
-'{"detectionImage":"Channel 1","requestedPixelSizeMicrons":1.0,"backgroundRadiusMicrons":30.0,"backgroundByReconstruction":true,
-"medianRadiusMicrons":0.0,"sigmaMicrons":1.5,"minAreaMicrons":10.0,"maxAreaMicrons":900.0,"threshold":25.0,"watershedPostProcess":true,
-"cellExpansionMicrons":0.0,"includeNuclei":true,"smoothBoundaries":true,"makeMeasurements":true}')  
+ 
 ### 7- Launch the script DBSCAN.groovy (drag and drop) on the annotation with the parameter MinPts=3 and distance=100um
 ![script](https://user-images.githubusercontent.com/41480459/221812388-2bc9e235-c0a6-4ed4-ad8b-d34fdcc522be.jpg)
 
