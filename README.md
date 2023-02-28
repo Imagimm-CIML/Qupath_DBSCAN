@@ -13,7 +13,7 @@
 You should obtain 9 detections :
 ![detections](https://user-images.githubusercontent.com/41480459/221815892-4c27944e-c890-401c-b282-36e2bb3f8ae4.jpg)
 
-### 5- Create two classes (beads and cluster) :  to do that right clic 
+### 5- Create two classes (beads and cluster) :  to do that right clic and add class
 ![add_class](https://user-images.githubusercontent.com/41480459/221811011-e6f70a95-bc7a-44b9-88b5-ce847cd01861.jpg)
 
 ### 6- Classify the detected spots as beads (as the groovy script is working on classify elements). To do that go in the menu Classify/Object classification/create single measurtements classifier and put the theshold to the minimum to be sure toi select all the spots:
