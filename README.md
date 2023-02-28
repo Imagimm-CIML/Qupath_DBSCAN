@@ -2,7 +2,7 @@
 ![DBSCAN_original](https://user-images.githubusercontent.com/41480459/221807462-691ec9cb-4749-4757-831f-b5a27e4f5594.jpg)
 
 ### 1- Create a Qupath project  
-### 2- Load the calibrated image DBSCAN.tif
+### 2- Load the calibrated image DBSCAN.tif (drag and drop) and double clic on it in the image list
 ![DBSCAN_calibrated](https://user-images.githubusercontent.com/41480459/221814110-c531f378-4c65-4dc5-90e4-9edfded4a95c.jpg)
 
 ### 3- Make an annotation around all the spots
