@@ -30,4 +30,6 @@ You should obtain this:
 ![classify-cluster](https://user-images.githubusercontent.com/41480459/221818430-1a6f751e-38f1-41ad-abe2-b82bd9017cc0.jpg)
 
 ### 9- You can hide the none class (spots that do not belong to cluster) by clicking on spacebar on the None class and change the color of the cluster class by double click on it: 
-![hiden_color](https://user-images.githubusercontent.com/41480459/221819041-4703c11e-fed1-43cc-94d7-a0d3b3804d5a.jpg)
+![hiden_color](https://user-images.githubusercontent.com/41480459/221819041-4703c11e-fed1-43cc-94d7-a0d3b3804d5a.jpg)  
+
+![hidden-noneClass](https://user-images.githubusercontent.com/41480459/221821804-e73f68e8-c50b-4ee2-9e1d-0c1399af7f0c.jpg)
