@@ -4,7 +4,7 @@
 ### 1- Create a Qupath project and put the "commons-math3-3.6.1.jar" file inside the main folder
 ### 2- Load the calibrated image DBSCAN.tif (drag and drop) and double click on it in the images list :
 ![DBSCAN_calibrated](https://user-images.githubusercontent.com/41480459/221814110-c531f378-4c65-4dc5-90e4-9edfded4a95c.jpg)
-This image contain spot thar are closer than 100um exept one whcih is further  
+This image contain 8 spots thar are closer than 100um exept one which is further (around 215um)
 ### 3- Make an annotation around all the spots
 ![annotation](https://user-images.githubusercontent.com/41480459/221815023-48e75e81-a894-48a0-82dc-0302bdc1f7fd.jpg)
 
