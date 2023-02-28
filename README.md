@@ -26,4 +26,5 @@ You should obtain this:
 ### 7- Launch the script DBSCAN.groovy on the annotation with the parameter MinPts=3 and distance=100um
 ![script](https://user-images.githubusercontent.com/41480459/221812388-2bc9e235-c0a6-4ed4-ad8b-d34fdcc522be.jpg)
 
-### 8- You should obtain one cluster of 8 beads (one is outside the cluster). To classify the cluster beads, go in the menu Classify/Object classification/create single measurtements and look for the measurements cluster
+### 8- You should obtain one cluster of 8 beads (one is outside the cluster). To classify the cluster beads, go in the menu Classify/Object classification/create single measurtements and look for the measurements cluster:  
+![classify-cluster](https://user-images.githubusercontent.com/41480459/221818430-1a6f751e-38f1-41ad-abe2-b82bd9017cc0.jpg)
