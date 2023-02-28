@@ -9,7 +9,9 @@
 ![annotation](https://user-images.githubusercontent.com/41480459/221815023-48e75e81-a894-48a0-82dc-0302bdc1f7fd.jpg)
 
 ### 4- Detect all the spots in the annotation with Analyse/cell detections (do not create cells detections for that put cell expansion=0) 
-![cell-detection](https://user-images.githubusercontent.com/41480459/221813921-ec4f5223-b6ae-4272-934d-da2c889a9d4c.jpg)
+![cell-detection](https://user-images.githubusercontent.com/41480459/221813921-ec4f5223-b6ae-4272-934d-da2c889a9d4c.jpg)  
+You should obtain 9 detections :
+![detections](https://user-images.githubusercontent.com/41480459/221815892-4c27944e-c890-401c-b282-36e2bb3f8ae4.jpg)
 
 ### 5- Create two classes (beads and cluster) :  to do that right clic 
 ![add_class](https://user-images.githubusercontent.com/41480459/221811011-e6f70a95-bc7a-44b9-88b5-ce847cd01861.jpg)
