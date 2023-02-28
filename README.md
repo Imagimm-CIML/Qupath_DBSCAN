@@ -1,4 +1,4 @@
-# DBSCAN using Qupath
+# DBSCAN using Qupath by creatin a folder and put the commons-math3-3.6.1.jar file inside
 ![DBSCAN_original](https://user-images.githubusercontent.com/41480459/221807462-691ec9cb-4749-4757-831f-b5a27e4f5594.jpg)
 
 ### 1- Create a Qupath project  
