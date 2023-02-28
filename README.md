@@ -28,3 +28,6 @@ You should obtain this:
 
 ### 8- You should obtain one cluster of 8 beads (one is outside the cluster). To classify the cluster beads, go in the menu Classify/Object classification/create single measurtements and look for the measurements cluster:  
 ![classify-cluster](https://user-images.githubusercontent.com/41480459/221818430-1a6f751e-38f1-41ad-abe2-b82bd9017cc0.jpg)
+
+### 9- You can hide the none class (spots that do not belong to cluster) and change the color of the cluster class: 
+![hiden_color](https://user-images.githubusercontent.com/41480459/221819041-4703c11e-fed1-43cc-94d7-a0d3b3804d5a.jpg)
