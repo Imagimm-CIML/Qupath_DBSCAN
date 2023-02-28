@@ -21,7 +21,7 @@ It could be launched in the script by this command : runPlugin('qupath.imagej.de
 
 ### 6- Classify the detected spots as beads (because the groovy script is working only on class detections). To do that go in the menu Classify/Object classification/create single measurtements classifier and put the theshold to the minimum to be sure to select all the spots:
 ![classifier](https://user-images.githubusercontent.com/41480459/221810259-54957572-417e-4a11-82a5-dbfa86b63006.jpg)   
-You can put a classifier name to save the classifier in the project.  
+You can put a classifier name (beads) to save the classifier in the project.  
 Then you should obtain this:  
 
 ![clssify_beads](https://user-images.githubusercontent.com/41480459/221817329-15713c7a-efd4-477d-9199-1e8db123f983.jpg)
@@ -30,8 +30,8 @@ Then you should obtain this:
 ![script](https://user-images.githubusercontent.com/41480459/221812388-2bc9e235-c0a6-4ed4-ad8b-d34fdcc522be.jpg)
 
 ### 8- You should obtain one cluster of 8 beads (one is outside the cluster). To classify the cluster beads, go in the menu Classify/Object classification/create single measurtements and look for the measurements cluster:  
-![classify-cluster](https://user-images.githubusercontent.com/41480459/221818430-1a6f751e-38f1-41ad-abe2-b82bd9017cc0.jpg)
-
+![classify-cluster](https://user-images.githubusercontent.com/41480459/221818430-1a6f751e-38f1-41ad-abe2-b82bd9017cc0.jpg)  
+You can put a classifier name 'cluster)  to save the classifier in the project.
 ### 9- You can hide the none class (spots that do not belong to cluster) by clicking on spacebar on the None class and change the color of the cluster class by double click on it: 
 ![hiden_color](https://user-images.githubusercontent.com/41480459/221819041-4703c11e-fed1-43cc-94d7-a0d3b3804d5a.jpg)  
 
