@@ -35,4 +35,5 @@ You should obtain this:
 ![hidden-noneClass](https://user-images.githubusercontent.com/41480459/221821804-e73f68e8-c50b-4ee2-9e1d-0c1399af7f0c.jpg)
 
 ### 10- To conclude, DBSCAN on Qupath is working perfectly and we find the same results as published with MinPoints =3 (and not MinPoints=4) if we consider the real number of neigbors without counting the central point itself. The border points are belonging to the cluster. You can try on this example the following parameters : MinPoints = 4 with distance=120um, you will find no cluster. With MinPoints = 4 and d=120um, you will find a cluster of 6 points (core = 2 points indicated with the red arrow and border points = 4 points):  
-![qupath_eps=120_MinPts=4](https://user-images.githubusercontent.com/41480459/221824862-44abb470-284f-42ae-9d27-9e173a71ae58.jpg)
+![qupath_eps=120_MinPts=4](https://user-images.githubusercontent.com/41480459/221825032-60816e23-f0d1-4fc9-bcfc-f047fcaae450.jpg)
+
