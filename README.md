@@ -22,7 +22,10 @@ You should obtain 9 detections :
 You should obtain this:  
 
 ![clssify_beads](https://user-images.githubusercontent.com/41480459/221817329-15713c7a-efd4-477d-9199-1e8db123f983.jpg)
-
+It could be launched in the script by this command : runPlugin('qupath.imagej.detect.cells.WatershedCellDetection', 
+'{"detectionImage":"Channel 1","requestedPixelSizeMicrons":1.0,"backgroundRadiusMicrons":30.0,"backgroundByReconstruction":true,
+"medianRadiusMicrons":0.0,"sigmaMicrons":1.5,"minAreaMicrons":10.0,"maxAreaMicrons":900.0,"threshold":25.0,"watershedPostProcess":true,
+"cellExpansionMicrons":0.0,"includeNuclei":true,"smoothBoundaries":true,"makeMeasurements":true}')  
 ### 7- Launch the script DBSCAN.groovy (drag and drop) on the annotation with the parameter MinPts=3 and distance=100um
 ![script](https://user-images.githubusercontent.com/41480459/221812388-2bc9e235-c0a6-4ed4-ad8b-d34fdcc522be.jpg)
 
