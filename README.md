@@ -23,11 +23,11 @@ You should obtain this:
 
 ![clssify_beads](https://user-images.githubusercontent.com/41480459/221817329-15713c7a-efd4-477d-9199-1e8db123f983.jpg)
 
-### 7- Launch the script DBSCAN.groovy on the annotation with the parameter MinPts=3 and distance=100um
+### 7- Launch the script DBSCAN.groovy (drag and drop) on the annotation with the parameter MinPts=3 and distance=100um
 ![script](https://user-images.githubusercontent.com/41480459/221812388-2bc9e235-c0a6-4ed4-ad8b-d34fdcc522be.jpg)
 
 ### 8- You should obtain one cluster of 8 beads (one is outside the cluster). To classify the cluster beads, go in the menu Classify/Object classification/create single measurtements and look for the measurements cluster:  
 ![classify-cluster](https://user-images.githubusercontent.com/41480459/221818430-1a6f751e-38f1-41ad-abe2-b82bd9017cc0.jpg)
 
-### 9- You can hide the none class (spots that do not belong to cluster) by clickin on spacebar on the None class and change the color of the cluster class by double click on it: 
+### 9- You can hide the none class (spots that do not belong to cluster) by clicking on spacebar on the None class and change the color of the cluster class by double click on it: 
 ![hiden_color](https://user-images.githubusercontent.com/41480459/221819041-4703c11e-fed1-43cc-94d7-a0d3b3804d5a.jpg)
