@@ -3,8 +3,9 @@
 
 ### 1- Create a Qupath project  
 ### 2- Load the calibrated image DBSCAN.tif
+![DBSCAN_original](https://user-images.githubusercontent.com/41480459/221812698-b50910b0-3fb5-4b41-a6f4-da9f56a17b50.jpg)
 ### 3- Make an annotation around all the spots
-### 4- Detect all the spots in the annotation with Analyse/cell detections (do not create cells detections put cell expansion=0)
+### 4- Detect all the spots in the annotation with Analyse/cell detections (do not create cells detections for that put cell expansion=0)
 ### 5- Create two classes (beads and cluster) :  to do that right clic 
 ![add_class](https://user-images.githubusercontent.com/41480459/221811011-e6f70a95-bc7a-44b9-88b5-ce847cd01861.jpg)
 
