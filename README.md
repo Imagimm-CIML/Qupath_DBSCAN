@@ -2,10 +2,12 @@
 ![DBSCAN_original](https://user-images.githubusercontent.com/41480459/221807462-691ec9cb-4749-4757-831f-b5a27e4f5594.jpg)
 
 ### 1- Create a Qupath project  
-### 2- Load the calibrated image DBSCAN.tif (drag and drop) and double clic on it in the image list
+### 2- Load the calibrated image DBSCAN.tif (drag and drop) and double click on it in the images list :
 ![DBSCAN_calibrated](https://user-images.githubusercontent.com/41480459/221814110-c531f378-4c65-4dc5-90e4-9edfded4a95c.jpg)
 
 ### 3- Make an annotation around all the spots
+![annotation](https://user-images.githubusercontent.com/41480459/221815023-48e75e81-a894-48a0-82dc-0302bdc1f7fd.jpg)
+
 ### 4- Detect all the spots in the annotation with Analyse/cell detections (do not create cells detections for that put cell expansion=0) 
 ![cell-detection](https://user-images.githubusercontent.com/41480459/221813921-ec4f5223-b6ae-4272-934d-da2c889a9d4c.jpg)
 
