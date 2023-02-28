@@ -40,7 +40,7 @@ Then you should obtain this:
 ### 10- To conclude, DBSCAN on Qupath is working perfectly and we find the same results as published with MinPoints =3 (and not MinPoints=4) if we consider the real number of neigbors without counting the central point itself. The border points are belonging to the cluster. You can try on this example the following parameters : MinPoints = 4 with distance=100um, you will find no cluster. With MinPoints = 4 and d=120um, you will find a cluster of 6 points (core = 2 points indicated with the red arrow and border points = 4 points):  
 ![qupath_eps=120_MinPts=4](https://user-images.githubusercontent.com/41480459/221825032-60816e23-f0d1-4fc9-bcfc-f047fcaae450.jpg)
 
-### 11- To go further : to apply DBSCAN on multiple annotations, load the roi.zip (with name of annotated regions) or draw the annotations in Qupath and apply the groovy script "DBSCAN_loopRegion.groovy" that contain the loop for the regions. The classifier beads and clusters are saved in a folder named classifiers/object_classifiers (with threshold values) and reused with the command that could be applied in groovy script :  
+### 11- To go further : to apply DBSCAN on multiple annotations, load the roi.zip (with name of annotated regions) or draw the annotations in Qupath and apply the groovy script "DBSCAN_loopRegion.groovy" that contain the loop for the regions. The classifier beads and clusters are saved in a folder named classifiers/object_classifiers (with threshold values) and can be reused with the groovy script command :  
 runObjectClassifier("beads");  
 runObjectClassifier("cluster");  
 ![classifier_json](https://user-images.githubusercontent.com/41480459/221878177-82c5ae47-3fc4-4ae3-a820-c274615896d8.jpg)
