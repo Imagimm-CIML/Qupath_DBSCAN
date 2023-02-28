@@ -40,4 +40,5 @@ You should obtain this:
 ### 11- To go further : to apply DBSCAN on multiple annotations, load the roi.zip (with name of annotated regions) on Qupath and apply the groovy script "DBSCAN_loopRegion.groovy" that contain the loop for the regions. The classifier beads and clusters could be saved in a folder named classifiers/object_classifiers (with threshold values) and reused with the command that could be applied in groovy script :  
 runObjectClassifier("beads");  
 runObjectClassifier("cluster");  
+![classifier_json](https://user-images.githubusercontent.com/41480459/221878177-82c5ae47-3fc4-4ae3-a820-c274615896d8.jpg)
 
