@@ -10,3 +10,5 @@
 
 ### 6- Classify the detected spots as beads (as the groovy script is working on classify elements). To do that go in the menu Classify/Object classification/create single measurtements classifier and put the theshold to the minimum to be sure toi select all the spots:
 ![classifier](https://user-images.githubusercontent.com/41480459/221810259-54957572-417e-4a11-82a5-dbfa86b63006.jpg)
+### 7- Launch the script DBSCAN.groovy on the annotation with the parameter MinPts=3 and distance=100um
+![script](https://user-images.githubusercontent.com/41480459/221812388-2bc9e235-c0a6-4ed4-ad8b-d34fdcc522be.jpg)
