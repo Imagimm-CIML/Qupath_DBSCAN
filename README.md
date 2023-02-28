@@ -4,5 +4,7 @@
 ### 1- Create a Qupath project  
 ### 2- Load the calibrated image DBSCAN.tif
 ### 3- Make an annotation around all the spots
-### 4- Detect all the spots in the annotation with Analyse/cell detections
+### 4- Detect all the spots in the annotation with Analyse/cell detections (do not create cells detections put cell expansion=0)
 ### 5- Create two classes (beads and cluster)
+### 6- Classify the detected spots as beads (as the groovy script is working on classify elements). To do that go in the menu Classify/Object classification/create single measurtements classifier:
+![classifier](https://user-images.githubusercontent.com/41480459/221810259-54957572-417e-4a11-82a5-dbfa86b63006.jpg)
