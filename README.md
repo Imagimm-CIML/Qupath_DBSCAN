@@ -45,3 +45,4 @@ runObjectClassifier("beads");
 runObjectClassifier("cluster");  
 ![classifier_json](https://user-images.githubusercontent.com/41480459/221878177-82c5ae47-3fc4-4ae3-a820-c274615896d8.jpg)
 
+You can dezip the classifiers.zip to obtain the classifiers and put it in your qupath project
